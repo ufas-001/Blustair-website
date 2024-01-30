@@ -12,18 +12,18 @@ const Section3 = () => {
                 <h4 className="my-5 text-[16px] font-[600] tracking-[1.5px]"> NEW AT MCKINSEY BLOG </h4>
             </div>
             
-            <div className="grid grid-cols-3">
-                <div className="flex flex-col gap-y-6 p-4 hover:shadow-2xl">
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
+                <div className="flex flex-col gap-y-6 p-4 md:hover:shadow-2xl">
                     <div className="section2a-cs-img w-full h-[200px]"></div>
                     <h4 className="inline text-[22px] font-[600] tracking-[1.5px] hover:underline hover:decoration-2 hover:decoration-blue-600 hover:underline-offset-8 hover:text-blue-600">JobsOhio and the long-term, innovative revitalization of a state’s economy <ChevronRight size={30} className="inline font-[900] text-blue-600" /></h4>
                     <p className="text-[19px] font-[50] tracking-[1.5px]"><em>October 6, 2022</em> - How did Ohio become a destination for business growth? A new program turned the state’s economy around, with some help from McKinsey.</p>
                 </div>
-                <div className="flex flex-col gap-y-6 p-4 hover:shadow-2xl">
+                <div className="flex flex-col gap-y-6 p-4 md:hover:shadow-2xl">
                     <div className="section2a-cs-img w-full h-[200px]"></div>
                     <h4 className="inline text-[22px] font-[600] tracking-[1.5px] hover:underline hover:decoration-2 hover:decoration-blue-600 hover:underline-offset-8 hover:text-blue-600">McKinsey’s new Sustainability Academy helps clients upskill workers for the net-zero transition <ChevronRight size={30} className="inline font-[900] text-blue-600" /></h4>
                     <p className="text-[19px] font-[50] tracking-[1.5px]"><em>October 6, 2022</em> - How did Ohio become a destination for business growth? A new program turned the state’s economy around, with some help from McKinsey.</p>
                 </div>
-                <div className="flex flex-col gap-y-6 p-4 hover:shadow-2xl">
+                <div className="flex flex-col gap-y-6 p-4 md:hover:shadow-2xl">
                     <div className="section2a-cs-img w-full h-[200px]"></div>
                     <h4 className="inline text-[22px] font-[600] tracking-[1.5px] hover:underline hover:decoration-2 hover:decoration-blue-600 hover:underline-offset-8 hover:text-blue-600">Tearing the ‘paper ceiling’: McKinsey supports effort driving upward mobility for millions of workers <ChevronRight size={30} className="inline font-[900] text-blue-600" /></h4>
                     <p className="text-[19px] font-[50] tracking-[1.5px]"><em>October 6, 2022</em> - How did Ohio become a destination for business growth? A new program turned the state’s economy around, with some help from McKinsey.</p>

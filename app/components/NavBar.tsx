@@ -13,20 +13,38 @@ import {
 
 const dataList = [
     {
-        name: "Industries",
-        href: "/"
-    },
-    {
-        name: "Companies",
-        href: "/"
+        name: "Capabilities",
+        href: "/",
+        links: [
+            {
+                name: "Operations",
+                href: "/operations"
+            }
+        ]
     },
     {
         name: "Features",
-        href: "/"
+        href: "/",
+        links: [
+            {
+                name: "",
+                href: "/"
+            }
+        ]
     },
     {
-        name: "Capabilities",
-        href: "/"
+        name: "About Us",
+        href: "/",
+        links: [
+            {
+                name: "value",
+                href: "/"
+            },
+            {
+                name: "Commitment",
+                href: "/"
+            }
+        ]
     }
 ]
 
@@ -70,7 +88,9 @@ const NavBar = () => {
                             <Menu className="h-6 w-6 text-black"  aria-hidden="true" />
                           </button>
                         </div>
-                        <Image src={Logo} className="w-[100px] md:w-[180px]" alt="logo"/>
+                        <Link href="/">
+                            <Image src={Logo} className="w-[100px] md:w-[180px]" alt="logo"/>
+                        </Link>
                     </div>
                     <ul className="hidden xl:flex text-black font-[100] space-x-6 text-lg items-end">
                         {
@@ -80,29 +100,13 @@ const NavBar = () => {
                                             <span>{data.name}</span>
                                             <ChevronDown size="16" />
                                         </HoverCardTrigger>
-                                        <HoverCardContent className="w-[90vw] rounded-none mx-auto">
-                                            <div className="grid grid-cols-3 text-sm gap-y-5 px-6 py-9">
-                                                <Link className="hover:underline-offset-4 hover:decoration-blue-600 hover:decoration-2 hover:underline" href="/">Aerospace & Defense</Link>
-                                                <Link className="hover:underline-offset-4 hover:decoration-blue-600 hover:decoration-2 hover:underline" href="/">Agriculture</Link>
-                                                <Link className="hover:underline-offset-4 hover:decoration-blue-600 hover:decoration-2 hover:underline" href="/">Automotive & Assembly</Link>
-                                                <Link className="hover:underline-offset-4 hover:decoration-blue-600 hover:decoration-2 hover:underline" href="/">Chemicals</Link>
-                                                <Link className="hover:underline-offset-4 hover:decoration-blue-600 hover:decoration-2 hover:underline" href="/">Consumer Packaged Goods</Link>
-                                                <Link className="hover:underline-offset-4 hover:decoration-blue-600 hover:decoration-2 hover:underline" href="/">Education</Link>
-                                                <Link className="hover:underline-offset-4 hover:decoration-blue-600 hover:decoration-2 hover:underline" href="/">Electric Power & Natural Gas</Link>
-                                                <Link className="hover:underline-offset-4 hover:decoration-blue-600 hover:decoration-2 hover:underline" href="/">Engineering, Construction & Building Materials</Link>
-                                                <Link className="hover:underline-offset-4 hover:decoration-blue-600 hover:decoration-2 hover:underline" href="/">Financial Services</Link>
-                                                <Link className="hover:underline-offset-4 hover:decoration-blue-600 hover:decoration-2 hover:underline" href="/">Industrials & Electronics</Link>
-                                                <Link className="hover:underline-offset-4 hover:decoration-blue-600 hover:decoration-2 hover:underline" href="/">Aerospace & Defense</Link>
-                                                <Link className="hover:underline-offset-4 hover:decoration-blue-600 hover:decoration-2 hover:underline" href="/">Agriculture</Link>
-                                                <Link className="hover:underline-offset-4 hover:decoration-blue-600 hover:decoration-2 hover:underline" href="/">Automotive & Assembly</Link>
-                                                <Link className="hover:underline-offset-4 hover:decoration-blue-600 hover:decoration-2 hover:underline" href="/">Chemicals</Link>
-                                                <Link className="hover:underline-offset-4 hover:decoration-blue-600 hover:decoration-2 hover:underline" href="/">Consumer Packaged Goods</Link>
-                                                <Link className="hover:underline-offset-4 hover:decoration-blue-600 hover:decoration-2 hover:underline" href="/">Education</Link>
-                                                <Link className="hover:underline-offset-4 hover:decoration-blue-600 hover:decoration-2 hover:underline" href="/">Electric Power & Natural Gas</Link>
-                                                <Link className="hover:underline-offset-4 hover:decoration-blue-600 hover:decoration-2 hover:underline" href="/">Engineering, Construction & Building Materials</Link>
-                                                <Link className="hover:underline-offset-4 hover:decoration-blue-600 hover:decoration-2 hover:underline" href="/">Financial Services</Link>
-                                                <Link className="hover:underline-offset-4 hover:decoration-blue-600 hover:decoration-2 hover:underline" href="/">Industrials & Electronics</Link>
-                                                <Link className="hover:underline-offset-4 hover:decoration-blue-600 hover:decoration-2 hover:underline" href="/">Aerospace & Defense</Link>
+                                        <HoverCardContent className="w-[90vw] rounded-none mx-auto"> 
+                                            <div className="grid grid-cols-3 text-base gap-y-5 px-6 py-9">   
+                                                {
+                                                    data.links?.map((link, index) => (
+                                                        <Link className="hover:underline-offset-4 hover:decoration-blue-600 hover:decoration-2 hover:underline" key={index} href={link.href}>{link.name}</Link>
+                                                    ))
+                                                }
                                             </div>
                                         </HoverCardContent>
                                     </HoverCard>
@@ -110,6 +114,9 @@ const NavBar = () => {
                         }
                         <Link href="/caseStudies" className="flex space-x-2 items-center hover:border-b-2 hover:border-blue-600 hover:text-blue-600">
                             <span>Case Studies</span>
+                        </Link>
+                        <Link href="/" className="flex space-x-2 items-center hover:border-b-2 hover:border-blue-600 hover:text-blue-600">
+                            <span>Contact</span>
                         </Link>
                         <Link href="/" className="flex space-x-2 items-center">
                             <span>Blog</span>

@@ -10,7 +10,7 @@ const Section4 = () => {
             <h4 className="text-lg font-[600] text-center mb-7">NEW AT MCKINSEY BLOG</h4>
             <div className="flex flex-col xl:flex-row h-auto">
                 <div className="w-full xl:w-1/2 relative h-[400px] xl:h-auto section4a-img transition-transform transform-gpu hover:scale-110 duration-300 transform-origin-center">
-                    <div className="absolute bottom-0 left-8 text-blue-400">
+                    <div className="absolute bottom-0 left-8 text-white">
                         <Link href="" className="flex flex-col mb-6 gap-y-2">
                             <p className="font-[600] text-[12px]">December 19, 2023</p>
                             <h4 className="text-2xl font-[600]">A year of impact-powered by people</h4>
