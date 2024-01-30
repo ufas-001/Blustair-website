@@ -8,7 +8,7 @@ const Section11 = () => {
     return (
         <div className="mt-24 w-[90%] mx-auto flex flex-col gap-y-4 tracking-[1.5px]">
             <h4 className="font-[600] text-base text-center">RELATED</h4>
-            <div className="grid grid-cols-3">
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
                 <div className="flex flex-col gap-y-6 p-4 hover:shadow-2xl">
                     <div className="section2a-cs-img w-full h-[200px]"></div>
                     <h4 className="inline text-[22px] font-[600] tracking-[1.5px] hover:underline hover:decoration-2 hover:decoration-blue-600 hover:underline-offset-8 hover:text-blue-600">Solving the digital manufacturing disconnect: A case study <ChevronRight size={30} className="inline font-[900] text-blue-600" /></h4>

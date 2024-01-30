@@ -6,7 +6,7 @@ const Section10 = () => {
 
     return (
         <div className="w-[90%] mx-auto mt-16 tracking-[1.5px]">
-            <div className="grid grid-cols-3">
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
                 <div className="flex flex-col gap-y-4 p-4 hover:shadow-2xl">
                     <div className="operation-section10-img w-full h-[200px]"></div>
                     <h4 className="inline text-[23px] font-[600] tracking-[1.5px] hover:underline hover:decoration-2 hover:decoration-blue-600 hover:underline-offset-8 hover:text-blue-600">Operations Transformation <ChevronRight size={30} className="inline font-[900] text-blue-600" /></h4>

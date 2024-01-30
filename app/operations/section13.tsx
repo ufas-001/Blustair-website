@@ -8,7 +8,7 @@ const Section13 = () => {
             <div className="py-16 w-[90%] mx-auto tracking-[1.5px] ">
                 <div className="flex flex-col gap-y-16">
                     <h4 className="text-center text-base font-[600]">OUR PEOPLE</h4>
-                    <div className="grid grid-cols-3 gap-1 justify-center ">
+                    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-1 justify-center ">
                         <div className="flex flex-col items-center bg-white py-16 gap-y-5 hover:shadow-2xl">
                             <div className="w-[200px] h-[200px] rounded-full people-1-img"></div>
                             <div className="px-12 flex flex-col items-center gap-y-5">
