@@ -1,27 +1,173 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
+ 
+@layer base {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+ 
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+ 
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+ 
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+ 
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+ 
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+ 
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+ 
+    --radius: 0.5rem;
+  }
+ 
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+ 
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+ 
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+ 
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+ 
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+ 
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+ 
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+ 
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+ 
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
   }
 }
+ 
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+.satoshi-text {
+  font-family: "SatoshiFont", sans-serif;
+}
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.my-shadow {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+}
+
+.header-img {
+  background-image: url('../components/img/Windows-11-White-Abstract-Background-4K-Wallpaper.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.section-img {
+  background-image: url('../components/img/section-1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.section2-img {
+  background-image: url('../components/img/grid.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.section4a-img {
+  background-image: url('../components/img/meetings.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.section4b-img {
+  background-image: url('../components/img/pngtree.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.section5-img {
+  background-image: url('../components/img/conference.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.section7-img {
+  background-image: url('../components/img/daria-pimkina-_y6eXJEkEg8-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.image-container {
+  transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+.image-container:hover {
+  transform: scale(1.2); /* Zoom in by changing the scale on hover */
+}
+
+.section1-cs-img {
+  background-image: url('../components/img/balloon-381334_640.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.section2a-cs-img {
+  background-image: url('../components/img/download.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.section2b-cs-img {
+  background-image: url('../components/img/download\ \(1\).jpeg');
+  background-size: cover;
+  background-position: center;
+}
+.section2c-cs-img {
+  background-image: url('../components/img/images\ \(1\).jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-img {
+  background-image: url('../components/img/Diploma\ in\ operation\ Management.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.operation-section10-img {
+  background-image: url('../components/img/Front-and-Back-Cover-Book-Mockup-removebg-preview.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.people-1-img {
+  background-image: url('../components/img/images\ \(2\).jpeg');
+  background-size: cover;
+  background-position: center;
 }
