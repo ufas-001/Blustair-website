@@ -171,3 +171,45 @@
   background-size: cover;
   background-position: center;
 }
+
+.about-us-banner {
+  background-image: url('../components/img/pexels-christina-morillo-1181611.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.about-us-sec2-img {
+  background-image: url('../components/img/pexels-jopwell-2422280.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.about-us-sec4-img {
+  background-image: url('../components/img/pexels-jopwell-2422290.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.about-us-sec6-img {
+  background-image: url('../components/img/pexels-helena-lopes-708440.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.about-us-sec8-img {
+  background-image: url('../components/img/pexels-fauxels-3182812.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.about-us-sec8b-img {
+  background-image: url('../components/img/pexels-canva-studio-3153201.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.about-us-sec9-img {
+  background-image: url('../components/img/pexels-andrea-piacquadio-926390.jpg');
+  background-size: cover;
+  background-position: center;
+}
