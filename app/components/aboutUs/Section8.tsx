@@ -16,9 +16,9 @@ const Section8 = () => {
                         <div className="flex flex-col gap-y-4">
                             <div className="flex flex-col">
                                 <span className="text-[14px]">Impact story</span>
-                                <Link href="/" className="inline text-[20px] font-[600] tracking-[1.5px] hover:underline hover:decoration-2 hover:decoration-blue-600 hover:underline-offset-2 hover:text-blue-600">An AI power play: Fueling the next wave of innovation in the energy sector</Link>
+                                <Link href="/" className="inline text-[22px] font-[600] tracking-[1.5px] hover:underline hover:decoration-2 hover:decoration-blue-600 hover:underline-offset-2 hover:text-blue-600">An AI power play: Fueling the next wave of innovation in the energy sector</Link>
                             </div>
-                            <p className="text-[16px] font-[50] tracking-[1.5px]"> <em>May 12, 2022</em> - How Vistra Corp. is partnering with McKinsey to improve efficiency and reduce emissions by using AI.</p>
+                            <p className="text-[18px] font-[50] tracking-[1.5px]"> <em>May 12, 2022</em> - How Vistra Corp. is partnering with McKinsey to improve efficiency and reduce emissions by using AI.</p>
                         </div>
                     </div>
                     <div className="flex flex-col gap-y-4 p-4 hover:shadow-2xl">
@@ -26,9 +26,9 @@ const Section8 = () => {
                         <div className="flex flex-col gap-y-4">
                             <div className="flex flex-col">
                                 <span className="text-[14px]">Impact story</span>
-                                <Link href="/" className="inline text-[20px] font-[600] tracking-[1.5px] hover:underline hover:decoration-2 hover:decoration-blue-600 hover:underline-offset-2 hover:text-blue-600">An AI power play: Fueling the next wave of innovation in the energy sector</Link>
+                                <Link href="/" className="inline text-[22px] font-[600] tracking-[1.5px] hover:underline hover:decoration-2 hover:decoration-blue-600 hover:underline-offset-2 hover:text-blue-600">An AI power play: Fueling the next wave of innovation in the energy sector</Link>
                             </div>
-                            <p className="text-[16px] font-[50] tracking-[1.5px]"> <em>May 12, 2022</em> - How Vistra Corp. is partnering with McKinsey to improve efficiency and reduce emissions by using AI.</p>
+                            <p className="text-[18px] font-[50] tracking-[1.5px]"> <em>May 12, 2022</em> - How Vistra Corp. is partnering with McKinsey to improve efficiency and reduce emissions by using AI.</p>
                         </div>
                     </div>
                 </div>

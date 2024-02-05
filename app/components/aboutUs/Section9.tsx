@@ -11,22 +11,22 @@ const Section9 = () => {
                 <div className="grid grid-cols-4">
                     <div className="flex flex-col gap-y-4 p-4">
                         <div className="about-us-sec9-img h-[200px]"></div>
-                        <Link href='/' className="text-[25px] font-[600]">McKinsey Blog <ChevronRight size={26} className="text-blue-600 inline" /></Link>
+                        <Link href='/' className="text-[26px] font-[600]">McKinsey Blog <ChevronRight size={26} className="text-blue-600 inline" /></Link>
                         <p className="text-base">A collection of stories about our people, our capabilities, our research, and the ever-changing face of our firm.</p>
                     </div>
                     <div className="flex flex-col gap-y-4 p-4">
                         <div className="about-us-sec9-img h-[200px]"></div>
-                        <Link href='/' className="text-[25px] font-[600]">McKinsey Blog <ChevronRight size={26} className="text-blue-600 inline" /></Link>
+                        <Link href='/' className="text-[26px] font-[600]">McKinsey Blog <ChevronRight size={26} className="text-blue-600 inline" /></Link>
                         <p className="text-base">A collection of stories about our people, our capabilities, our research, and the ever-changing face of our firm.</p>
                     </div>
                     <div className="flex flex-col gap-y-4 p-4">
                         <div className="about-us-sec9-img h-[200px]"></div>
-                        <Link href='/' className="text-[25px] font-[600]">McKinsey Blog <ChevronRight size={26} className="text-blue-600 inline" /></Link>
+                        <Link href='/' className="text-[26px] font-[600]">McKinsey Blog <ChevronRight size={26} className="text-blue-600 inline" /></Link>
                         <p className="text-base">A collection of stories about our people, our capabilities, our research, and the ever-changing face of our firm.</p>
                     </div>
                     <div className="flex flex-col gap-y-4 p-4">
                         <div className="about-us-sec9-img h-[200px]"></div>
-                        <Link href='/' className="text-[25px] font-[600]">McKinsey Blog <ChevronRight size={26} className="text-blue-600 inline" /></Link>
+                        <Link href='/' className="text-[26px] font-[600]">McKinsey Blog <ChevronRight size={26} className="text-blue-600 inline" /></Link>
                         <p className="text-base">A collection of stories about our people, our capabilities, our research, and the ever-changing face of our firm.</p>
                     </div>
                 </div>

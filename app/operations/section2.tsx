@@ -13,20 +13,20 @@ const Section2 = () => {
                 <h4 className="font-[600] text-base px-4">HOW WE HELP CLIENTS</h4>
                 <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
                     <div className="px-5 pt-4 pb-6 flex flex-col gap-y-5 hover:shadow-2xl">
-                        <h4 className="inline text-[22px] font-[600] tracking-[1.5px] hover:underline hover:decoration-2 hover:decoration-blue-600 hover:underline-offset-8 hover:text-blue-600">Capital Excellence <ChevronRight size={30} className="inline font-[900] text-blue-600" /></h4>
-                        <p className="text-[17px] leading-[30px] font-[50] tracking-[1.5px]">Helping organizations achieve higher and faster returns by deploying best-in-class thinking across the capital projects portfolio and project delivery value chain</p>
+                        <h4 className="inline text-[22px] font-[600] hover:underline hover:decoration-2 hover:decoration-blue-600 hover:underline-offset-8 hover:text-blue-600">Capital Excellence <ChevronRight size={30} className="inline font-[900] text-blue-600" /></h4>
+                        <p className="text-[17px] leading-[30px] font-[50] ">Helping organizations achieve higher and faster returns by deploying best-in-class thinking across the capital projects portfolio and project delivery value chain</p>
                     </div>
                     <div className="px-5 pt-4 pb-6 flex flex-col gap-y-5 hover:shadow-2xl">
-                        <h4 className="inline text-[22px] font-[600] tracking-[1.5px] hover:underline hover:decoration-2 hover:decoration-blue-600 hover:underline-offset-8 hover:text-blue-600">Manufacturing & Supply Chain <ChevronRight size={30} className="inline font-[900] text-blue-600" /></h4>
-                        <p className="text-[17px] leading-[30px] font-[50] tracking-[1.5px]">Creating a lasting impact in global manufacturing and supply-chain operations</p>
+                        <h4 className="inline text-[22px] font-[600] hover:underline hover:decoration-2 hover:decoration-blue-600 hover:underline-offset-8 hover:text-blue-600">Manufacturing & Supply Chain <ChevronRight size={30} className="inline font-[900] text-blue-600" /></h4>
+                        <p className="text-[17px] leading-[30px] font-[50] ">Creating a lasting impact in global manufacturing and supply-chain operations</p>
                     </div>
                     <div className="px-5 pt-4 pb-6 flex flex-col gap-y-5 hover:shadow-2xl">
-                        <h4 className="inline text-[22px] font-[600] tracking-[1.5px] hover:underline hover:decoration-2 hover:decoration-blue-600 hover:underline-offset-8 hover:text-blue-600">Product Development & Procurement <ChevronRight size={30} className="inline font-[900] text-blue-600" /></h4>
-                        <p className="text-[17px] leading-[30px] font-[50] tracking-[1.5px]">Helping organizations achieve higher and faster returns by deploying best-in-class thinking across the capital projects portfolio and project delivery value chain</p>
+                        <h4 className="inline text-[22px] font-[600] hover:underline hover:decoration-2 hover:decoration-blue-600 hover:underline-offset-8 hover:text-blue-600">Product Development & Procurement <ChevronRight size={30} className="inline font-[900] text-blue-600" /></h4>
+                        <p className="text-[17px] leading-[30px] font-[50]">Helping organizations achieve higher and faster returns by deploying best-in-class thinking across the capital projects portfolio and project delivery value chain</p>
                     </div>
                     <div className="px-5 pt-4 pb-6 flex flex-col gap-y-5 hover:shadow-2xl">
-                        <h4 className="inline text-[22px] font-[600] tracking-[1.5px] hover:underline hover:decoration-2 hover:decoration-blue-600 hover:underline-offset-8 hover:text-blue-600">Service Operations <ChevronRight size={30} className="inline font-[900] text-blue-600" /></h4>
-                        <p className="text-[17px] leading-[30px] font-[50] tracking-[1.5px]">Transforming customer experience, and enterprise efficiency and effectiveness</p>
+                        <h4 className="inline text-[22px] font-[600] hover:underline hover:decoration-2 hover:decoration-blue-600 hover:underline-offset-8 hover:text-blue-600">Service Operations <ChevronRight size={30} className="inline font-[900] text-blue-600" /></h4>
+                        <p className="text-[17px] leading-[30px] font-[50]">Transforming customer experience, and enterprise efficiency and effectiveness</p>
                     </div>
                 </div>
             </div>

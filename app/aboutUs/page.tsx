@@ -16,7 +16,7 @@ import Footer from "../components/homePage/footer"
 const AboutUs = () => {
 
     return (
-        <div className="tracking-[1.5px]">
+        <div className="">
             <NavBar />
             <Banner />
             <Section1 />

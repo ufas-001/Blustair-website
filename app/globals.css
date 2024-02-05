@@ -213,3 +213,27 @@
   background-size: cover;
   background-position: center;
 }
+
+.commit-banner {
+  background-image: url('../components/img/pexels-christina-morillo-1181317.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.commit-section3 {
+  background-image: url('../components/img/pexels-andrea-piacquadio-3756681.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.commit-section6 {
+  background-image: url('../components/img/pexels-karolina-grabowska-4467687.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.commit-section10 {
+  background-image: url('../components/img/pexels-canva-studio-3153201.jpg');
+  background-size: cover;
+  background-position: center;
+}

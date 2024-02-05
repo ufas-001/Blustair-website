@@ -37,12 +37,16 @@ const dataList = [
         href: "/",
         links: [
             {
-                name: "value",
-                href: "/"
+                name: "Overview",
+                href: "/aboutUs"
             },
             {
                 name: "Commitment",
-                href: "/"
+                href: "/aboutUs/commitment"
+            },
+            {
+                name: "Value",
+                href: "/aboutUs/value"
             }
         ]
     }
